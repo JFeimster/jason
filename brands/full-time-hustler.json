@@ -1,0 +1,10 @@
+{
+  "id": "full-time-hustler",
+  "name": "Full-Time Hustler",
+  "role": "Media, education, and community division",
+  "description": "YouTube, podcast, Substack, guides, playbooks, case studies, and community experiences.",
+  "primaryRoutes": [
+    "/learn-media",
+    "/community"
+  ]
+}

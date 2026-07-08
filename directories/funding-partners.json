@@ -1,0 +1,74 @@
+{
+  "id": "funding-partners",
+  "title": "Funding Partner Directory",
+  "description": "Initial partner directory for business funding, credit, broker, and referral programs. Replace placeholder notes as partner terms are confirmed.",
+  "items": [
+    {
+      "id": "dac",
+      "name": "David Allen Capital",
+      "category": "business-funding",
+      "url": "https://bit.ly/DACaffiliate",
+      "tags": [
+        "funding",
+        "agents",
+        "team-building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "rokfi",
+      "name": "ROK Financial",
+      "category": "business-funding",
+      "url": "https://bit.ly/rockfi-affiliate",
+      "tags": [
+        "funding",
+        "broker"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "7figures",
+      "name": "7 Figures Funding",
+      "category": "credit-stacking",
+      "url": "https://bit.ly/3PFLCff",
+      "tags": [
+        "credit",
+        "funding"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "credit-suite",
+      "name": "Credit Suite",
+      "category": "business-credit",
+      "url": "https://bit.ly/creditsuiteaffiliate",
+      "tags": [
+        "credit",
+        "business-credit"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "national-business-capital",
+      "name": "National Business Capital",
+      "category": "business-funding",
+      "url": "https://bit.ly/nbcaffiliate",
+      "tags": [
+        "funding",
+        "lender-marketplace"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "finance-factory",
+      "name": "Finance Factory",
+      "category": "funding",
+      "url": "https://bit.ly/financefactory-affiliate",
+      "tags": [
+        "funding",
+        "consultant"
+      ],
+      "status": "active"
+    }
+  ]
+}

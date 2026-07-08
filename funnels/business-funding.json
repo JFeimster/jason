@@ -1,0 +1,12 @@
+{
+  "id": "business-funding",
+  "slug": "capital/business-funding",
+  "title": "Business Funding",
+  "division": "moonshine-capital",
+  "headline": "Capital Pathways for Operating Businesses",
+  "subheadline": "Route businesses toward funding options based on urgency, revenue, credit profile, use of funds, and operator readiness.",
+  "primaryCta": {
+    "label": "Start Prequal Quiz",
+    "href": "/capital/prequal-quiz"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "moonshine-capital",
+  "name": "Moonshine Capital",
+  "role": "Capital division of JF Ventures",
+  "description": "Business funding, real estate funding, personal funding, credit stacking, acquisition capital, lender directory, and prequal workflows.",
+  "primaryRoutes": [
+    "/capital",
+    "/capital/business-funding",
+    "/capital/acquisition-capital",
+    "/credit"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "credit-builder",
+  "slug": "credit/credit-builder-tools",
+  "title": "Credit Builder Tools",
+  "division": "moonshine-capital",
+  "headline": "Build Credit Capacity Before You Need It",
+  "subheadline": "Curated tools, vendors, and education to help operators build fundable profiles.",
+  "primaryCta": {
+    "label": "Explore Credit Tools",
+    "href": "/credit/credit-builder-tools"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "funding-partners",
+  "slug": "partners/become-funding-partner",
+  "title": "Become a Funding Partner",
+  "division": "privateer-partner-network",
+  "headline": "Sell the Stack. Serve Operators. Earn Through the Ecosystem.",
+  "subheadline": "Apply to become a JF Ventures partner and refer capital, credit, fintech, AI, and business tools to operators who need leverage.",
+  "primaryCta": {
+    "label": "Apply to Become a Partner",
+    "href": "#lead-form"
+  },
+  "secondaryCta": {
+    "label": "View Partner Directory",
+    "href": "/partners/affiliate-directory"
+  },
+  "recommendedNextSteps": [
+    {
+      "label": "Review DAC opportunity",
+      "url": "https://bit.ly/47TX5SO"
+    },
+    {
+      "label": "Register with DAC",
+      "url": "https://bit.ly/DACagency"
+    },
+    {
+      "label": "Join Moonshine Moneymakers",
+      "url": "https://www.distilledfunding.com/group/moonshine-moneymakers/"
+    }
+  ]
+}

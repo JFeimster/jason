@@ -1,0 +1,12 @@
+{
+  "id": "ai-agents",
+  "slug": "ai/ai-agents",
+  "title": "AI Agents",
+  "division": "operator-ai-lab",
+  "headline": "Deploy Agents That Remove Bottlenecks",
+  "subheadline": "Research, route, qualify, summarize, and automate work across capital, credit, partner, and content workflows.",
+  "primaryCta": {
+    "label": "Request an Agent Workflow",
+    "href": "#lead-form"
+  }
+}

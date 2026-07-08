@@ -1,0 +1,11 @@
+{
+  "id": "privateer-partner-network",
+  "name": "Privateer Partner Network",
+  "role": "Partner and affiliate distribution division",
+  "description": "Funding partners, broker opportunities, affiliate directories, sub-affiliate recruiting, and partner training.",
+  "primaryRoutes": [
+    "/partners",
+    "/partners/become-funding-partner",
+    "/partners/affiliate-directory"
+  ]
+}

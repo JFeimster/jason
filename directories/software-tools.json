@@ -1,0 +1,55 @@
+{
+  "id": "software-tools",
+  "title": "Software Tool Directory",
+  "description": "Tool vault placeholder directory for software, AI, CRM, affiliate, automation, and template assets.",
+  "items": [
+    {
+      "id": "replit",
+      "name": "Replit",
+      "category": "code-deployment",
+      "useCase": "Generate and host MVP funnels quickly."
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "category": "deployment",
+      "useCase": "Deploy Next.js apps and static config-driven sites."
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "category": "backend",
+      "useCase": "Later-stage leads, auth, storage, and partner portal data."
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "category": "ops-cms",
+      "useCase": "Operator console, internal CRM, resource vault, and content planning."
+    },
+    {
+      "id": "google-sheets",
+      "name": "Google Sheets",
+      "category": "ops-cms",
+      "useCase": "Beta lead inbox, link inventory, and lightweight campaign tracking."
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "category": "ai-dev",
+      "useCase": "AI-assisted Next.js development from the JSON configs."
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "category": "ai-dev",
+      "useCase": "Generate deployable front-end prototypes quickly."
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt",
+      "category": "ai-dev",
+      "useCase": "Rapid app scaffolding and visual iteration."
+    }
+  ]
+}

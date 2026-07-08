@@ -1,0 +1,12 @@
+{
+  "id": "operator-ai-lab",
+  "name": "Operator AI Lab",
+  "role": "AI systems division",
+  "description": "Custom GPTs, AI assistants, agents, prompt packs, automations, and workflow kits.",
+  "primaryRoutes": [
+    "/ai",
+    "/ai/custom-gpts",
+    "/ai/workflows",
+    "/tools/automation-templates"
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": "2026-06-26T17:48:25Z",
+  "brand": {
+    "id": "jfventures",
+    "name": "JF Ventures",
+    "legalOrWorkingName": "Juliet Foxtrot Ventures",
+    "status": "temporary-working-brand",
+    "tagline": "Build. Buy. Fund. Automate.",
+    "positioning": "A private-office-style venture ecosystem for operators, partners, and business owners using capital strategy, fintech systems, AI workflows, and affiliate distribution to grow cash-flowing companies.",
+    "voice": {
+      "tone": [
+        "premium",
+        "operator-led",
+        "contrarian",
+        "direct",
+        "witty",
+        "high-trust"
+      ],
+      "avoid": [
+        "cheap hustle culture",
+        "generic loan-broker language",
+        "beige SaaS copy",
+        "get-rich-quick framing"
+      ]
+    },
+    "visualTheme": {
+      "name": "luxury-neobrutalist-fintech-terminal",
+      "mood": [
+        "private office",
+        "cyberpunk fintech",
+        "Marine field manual",
+        "capital markets terminal",
+        "dark luxury"
+      ],
+      "colors": {
+        "background": "#080808",
+        "surface": "#111111",
+        "surfaceAlt": "#181818",
+        "foreground": "#F5F0E8",
+        "muted": "#A7A29A",
+        "primary": "#D6B25E",
+        "secondary": "#00E5FF",
+        "dangerAccent": "#FF4D2E",
+        "successAccent": "#39FF88"
+      },
+      "typography": {
+        "display": "sharp-serif-or-editorial-display",
+        "body": "modern-grotesk-or-inter",
+        "mono": "jetbrains-mono-or-ibm-plex-mono"
+      },
+      "uiMotifs": [
+        "thick borders",
+        "brass accents",
+        "terminal panels",
+        "dossier cards",
+        "ticker strips",
+        "classified memo blocks"
+      ]
+    }
+  },
+  "routing": {
+    "framework": "Next.js App Router",
+    "homeRoute": "/",
+    "dynamicPageRoute": "/[slug]",
+    "nestedPageRoute": "/[section]/[slug]",
+    "leadApiRoute": "/api/lead",
+    "dataMode": "beta-static-config-plus-localstorage",
+    "dataLayer": {
+      "beta": [
+        "json-config",
+        "localStorage",
+        "external-forms-optional"
+      ],
+      "later": [
+        "Supabase",
+        "Neon",
+        "Upstash",
+        "Notion-or-Google-Sheets-sync"
+      ]
+    }
+  },
+  "navigation": [
+    {
+      "id": "capital",
+      "label": "Capital",
+      "slug": "capital",
+      "href": "/capital",
+      "configFile": "pages/capital.json"
+    },
+    {
+      "id": "credit",
+      "label": "Credit",
+      "slug": "credit",
+      "href": "/credit",
+      "configFile": "pages/credit.json"
+    },
+    {
+      "id": "partners",
+      "label": "Partners",
+      "slug": "partners",
+      "href": "/partners",
+      "configFile": "pages/partners.json"
+    },
+    {
+      "id": "ai",
+      "label": "AI",
+      "slug": "ai",
+      "href": "/ai",
+      "configFile": "pages/ai.json"
+    },
+    {
+      "id": "tools",
+      "label": "Tools",
+      "slug": "tools",
+      "href": "/tools",
+      "configFile": "pages/tools.json"
+    },
+    {
+      "id": "banking",
+      "label": "Banking",
+      "slug": "banking",
+      "href": "/banking",
+      "configFile": "pages/banking.json"
+    },
+    {
+      "id": "learn-media",
+      "label": "Learn / Media",
+      "slug": "learn-media",
+      "href": "/learn-media",
+      "configFile": "pages/learn-media.json"
+    },
+    {
+      "id": "community",
+      "label": "Community",
+      "slug": "community",
+      "href": "/community",
+      "configFile": "pages/community.json"
+    }
+  ],
+  "primaryCtas": [
+    {
+      "id": "join-partner-network",
+      "label": "Join the Partner Network",
+      "href": "/partners/become-funding-partner",
+      "style": "primary"
+    },
+    {
+      "id": "capital-review",
+      "label": "Apply for Capital Review",
+      "href": "/capital/prequal-quiz",
+      "style": "secondary"
+    },
+    {
+      "id": "tool-vault",
+      "label": "Enter the Tool Vault",
+      "href": "/tools",
+      "style": "ghost"
+    }
+  ],
+  "divisions": [
+    {
+      "id": "moonshine-capital",
+      "name": "Moonshine Capital",
+      "role": "capital-division",
+      "description": "Business funding, real estate funding, personal funding, credit stacking, lender directory, and capital-readiness funnels.",
+      "configFile": "brands/moonshine-capital.json"
+    },
+    {
+      "id": "privateer-partner-network",
+      "name": "Privateer Partner Network",
+      "role": "partner-distribution-division",
+      "description": "Funding partners, affiliate systems, broker opportunities, sub-affiliate recruiting, and partner training.",
+      "configFile": "brands/privateer-partner-network.json"
+    },
+    {
+      "id": "operator-ai-lab",
+      "name": "Operator AI Lab",
+      "role": "ai-systems-division",
+      "description": "Custom GPTs, AI assistants, agents, prompt packs, automations, and workflow systems.",
+      "configFile": "brands/operator-ai-lab.json"
+    },
+    {
+      "id": "full-time-hustler",
+      "name": "Full-Time Hustler",
+      "role": "media-community-division",
+      "description": "Operator media, guides, field notes, education, and community experiences.",
+      "configFile": "brands/full-time-hustler.json"
+    }
+  ],
+  "homePage": {
+    "slug": "",
+    "title": "JF Ventures",
+    "layout": "home-command-center",
+    "pageConfigFile": "pages/home.json",
+    "sections": [
+      "hero",
+      "division-grid",
+      "operator-pathways",
+      "featured-partner-network",
+      "capital-stack",
+      "ai-systems-preview",
+      "tool-vault-preview",
+      "field-notes-preview",
+      "lead-capture"
+    ]
+  },
+  "analytics": {
+    "beta": {
+      "captureUtmInLocalStorage": true,
+      "captureOutboundClickEventsInLocalStorage": true,
+      "sendLeadPayloadToApi": false
+    },
+    "later": {
+      "sendLeadPayloadToApi": true,
+      "eventStoreOptions": [
+        "Supabase",
+        "Tinybird",
+        "Upstash Redis"
+      ]
+    }
+  }
+}
