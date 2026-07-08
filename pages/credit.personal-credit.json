@@ -1,0 +1,123 @@
+{
+  "id": "credit-personal-credit",
+  "slug": "credit/personal-credit",
+  "title": "Personal Credit",
+  "parent": "credit",
+  "meta": {
+    "description": "Personal credit improvement, responsible credit use, and funding-readiness pathways."
+  },
+  "layout": "detail-page-with-dossier-and-intake",
+  "hero": {
+    "headline": "Personal Credit",
+    "subheadline": "Personal credit improvement, responsible credit use, and funding-readiness pathways.",
+    "primaryCta": {
+      "label": "Request Access",
+      "href": "#lead-form"
+    },
+    "secondaryCta": {
+      "label": "Back to Credit",
+      "href": "/credit"
+    }
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "Personal Credit",
+      "subheadline": "Personal credit improvement, responsible credit use, and funding-readiness pathways.",
+      "actions": [
+        {
+          "label": "Request Access",
+          "url": "#lead-form",
+          "style": "primary"
+        },
+        {
+          "label": "Back to Credit",
+          "url": "/credit",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "dossier",
+      "title": "Who This Is For",
+      "items": [
+        "Operators who already have momentum and need leverage.",
+        "Partners who want to refer, sell, or package this pathway.",
+        "Business owners who want a cleaner route than guessing, Googling, and praying."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "How It Works",
+      "steps": [
+        {
+          "label": "Signal",
+          "description": "Tell us the goal, situation, and urgency."
+        },
+        {
+          "label": "Route",
+          "description": "We match the request to the right resource, partner, tool, or workflow."
+        },
+        {
+          "label": "Deploy",
+          "description": "You get a clear next step: apply, book, join, use a tool, or enter training."
+        }
+      ]
+    },
+    {
+      "type": "lead-form",
+      "id": "lead-form",
+      "formId": "credit-personal-credit-lead",
+      "storageKey": "jfventures.leads.credit.personal-credit",
+      "submitMode": "localStorage-beta",
+      "futureApiEndpoint": "/api/lead",
+      "fields": [
+        {
+          "name": "full_name",
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "name": "business_or_project",
+          "label": "Business / Project",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "goal",
+          "label": "What are you trying to accomplish?",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "hiddenFields": [
+        {
+          "name": "source_page",
+          "value": "/credit/personal-credit"
+        },
+        {
+          "name": "division",
+          "value": "credit"
+        },
+        {
+          "name": "pathway",
+          "value": "personal-credit"
+        }
+      ]
+    }
+  ]
+}

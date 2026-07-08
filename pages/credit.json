@@ -1,0 +1,130 @@
+{
+  "id": "credit",
+  "slug": "credit",
+  "title": "Credit",
+  "meta": {
+    "description": "Credit education, credit-builder tools, tradeline/vendor resources, business credit systems, and personal credit pathways."
+  },
+  "layout": "credit-hub",
+  "division": "credit",
+  "hero": {
+    "headline": "Credit",
+    "subheadline": "Business and personal credit systems for stronger funding capacity.",
+    "primaryCta": {
+      "label": "Explore Credit Systems",
+      "href": "/credit/business-credit"
+    },
+    "secondaryCta": {
+      "label": "Become a Credit Partner",
+      "href": "/partners/affiliate-directory"
+    }
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "Credit",
+      "subheadline": "Business and personal credit systems for stronger funding capacity.",
+      "actions": [
+        {
+          "label": "Explore Credit Systems",
+          "url": "/credit/business-credit",
+          "style": "primary"
+        },
+        {
+          "label": "Become a Credit Partner",
+          "url": "/partners/affiliate-directory",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "child-page-grid",
+      "title": "Credit Pathways",
+      "description": "Credit education, credit-builder tools, tradeline/vendor resources, business credit systems, and personal credit pathways.",
+      "items": [
+        {
+          "id": "business-credit",
+          "title": "Business Credit",
+          "description": "Vendor accounts, reporting trade lines, credit-building systems, and funding-readiness resources.",
+          "url": "/credit/business-credit"
+        },
+        {
+          "id": "personal-credit",
+          "title": "Personal Credit",
+          "description": "Personal credit improvement, responsible credit use, and funding-readiness pathways.",
+          "url": "/credit/personal-credit"
+        },
+        {
+          "id": "credit-builder-tools",
+          "title": "Credit Builder Tools",
+          "description": "Tools and platforms that support business and personal credit-building goals.",
+          "url": "/credit/credit-builder-tools"
+        },
+        {
+          "id": "tradeline-vendor-resources",
+          "title": "Tradeline / Vendor Resources",
+          "description": "Vendor, tradeline, and net-term account resources for credit-building strategies.",
+          "url": "/credit/tradeline-vendor-resources"
+        },
+        {
+          "id": "credit-education",
+          "title": "Credit Education",
+          "description": "Guides, explainers, and playbooks for using credit as leverage instead of a trap.",
+          "url": "/credit/credit-education"
+        }
+      ]
+    },
+    {
+      "type": "featured-dossier",
+      "title": "Operator Brief",
+      "description": "This section should educate, route, and qualify visitors before pushing them into the right credit pathway.",
+      "bullets": [
+        "Clarify the visitor's intent.",
+        "Show the highest-value pathway first.",
+        "Use localStorage during beta to remember quiz/pathway choices.",
+        "Add /api/lead submission when the data layer goes live."
+      ]
+    },
+    {
+      "type": "lead-capture",
+      "id": "credit-lead-form",
+      "title": "Request Credit Access",
+      "description": "Tell us what you need from the Credit stack and we will route you accordingly.",
+      "formId": "credit-access-request",
+      "mode": "localStorage-beta-api-later"
+    }
+  ],
+  "children": [
+    {
+      "id": "business-credit",
+      "title": "Business Credit",
+      "slug": "credit/business-credit",
+      "configFile": "pages/credit.business-credit.json"
+    },
+    {
+      "id": "personal-credit",
+      "title": "Personal Credit",
+      "slug": "credit/personal-credit",
+      "configFile": "pages/credit.personal-credit.json"
+    },
+    {
+      "id": "credit-builder-tools",
+      "title": "Credit Builder Tools",
+      "slug": "credit/credit-builder-tools",
+      "configFile": "pages/credit.credit-builder-tools.json"
+    },
+    {
+      "id": "tradeline-vendor-resources",
+      "title": "Tradeline / Vendor Resources",
+      "slug": "credit/tradeline-vendor-resources",
+      "configFile": "pages/credit.tradeline-vendor-resources.json"
+    },
+    {
+      "id": "credit-education",
+      "title": "Credit Education",
+      "slug": "credit/credit-education",
+      "configFile": "pages/credit.credit-education.json"
+    }
+  ]
+}

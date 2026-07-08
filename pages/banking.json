@@ -1,0 +1,130 @@
+{
+  "id": "banking",
+  "slug": "banking",
+  "title": "Banking",
+  "meta": {
+    "description": "Business banking, fintech accounts, spend management, merchant services, and cash-flow tools."
+  },
+  "layout": "banking-systems-hub",
+  "division": "banking",
+  "hero": {
+    "headline": "Banking",
+    "subheadline": "Banking and fintech infrastructure for cash-flowing operators.",
+    "primaryCta": {
+      "label": "Explore Banking Stack",
+      "href": "/banking/business-banking"
+    },
+    "secondaryCta": {
+      "label": "Compare Cash Flow Tools",
+      "href": "/banking/cash-flow-tools"
+    }
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "Banking",
+      "subheadline": "Banking and fintech infrastructure for cash-flowing operators.",
+      "actions": [
+        {
+          "label": "Explore Banking Stack",
+          "url": "/banking/business-banking",
+          "style": "primary"
+        },
+        {
+          "label": "Compare Cash Flow Tools",
+          "url": "/banking/cash-flow-tools",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "child-page-grid",
+      "title": "Banking Pathways",
+      "description": "Business banking, fintech accounts, spend management, merchant services, and cash-flow tools.",
+      "items": [
+        {
+          "id": "business-banking",
+          "title": "Business Banking",
+          "description": "Banking options and account stacks for founders, agencies, operators, and small businesses.",
+          "url": "/banking/business-banking"
+        },
+        {
+          "id": "fintech-accounts",
+          "title": "Fintech Accounts",
+          "description": "Modern fintech accounts, cards, money movement, and API-friendly financial tools.",
+          "url": "/banking/fintech-accounts"
+        },
+        {
+          "id": "spend-management",
+          "title": "Spend Management",
+          "description": "Expense management, virtual cards, budgets, and controls for operators and teams.",
+          "url": "/banking/spend-management"
+        },
+        {
+          "id": "merchant-services",
+          "title": "Merchant Services",
+          "description": "Payment processing, merchant accounts, and commerce infrastructure.",
+          "url": "/banking/merchant-services"
+        },
+        {
+          "id": "cash-flow-tools",
+          "title": "Cash Flow Tools",
+          "description": "Cash-flow forecasting, bookkeeping integrations, and financial visibility tools.",
+          "url": "/banking/cash-flow-tools"
+        }
+      ]
+    },
+    {
+      "type": "featured-dossier",
+      "title": "Operator Brief",
+      "description": "This section should educate, route, and qualify visitors before pushing them into the right banking pathway.",
+      "bullets": [
+        "Clarify the visitor's intent.",
+        "Show the highest-value pathway first.",
+        "Use localStorage during beta to remember quiz/pathway choices.",
+        "Add /api/lead submission when the data layer goes live."
+      ]
+    },
+    {
+      "type": "lead-capture",
+      "id": "banking-lead-form",
+      "title": "Request Banking Access",
+      "description": "Tell us what you need from the Banking stack and we will route you accordingly.",
+      "formId": "banking-access-request",
+      "mode": "localStorage-beta-api-later"
+    }
+  ],
+  "children": [
+    {
+      "id": "business-banking",
+      "title": "Business Banking",
+      "slug": "banking/business-banking",
+      "configFile": "pages/banking.business-banking.json"
+    },
+    {
+      "id": "fintech-accounts",
+      "title": "Fintech Accounts",
+      "slug": "banking/fintech-accounts",
+      "configFile": "pages/banking.fintech-accounts.json"
+    },
+    {
+      "id": "spend-management",
+      "title": "Spend Management",
+      "slug": "banking/spend-management",
+      "configFile": "pages/banking.spend-management.json"
+    },
+    {
+      "id": "merchant-services",
+      "title": "Merchant Services",
+      "slug": "banking/merchant-services",
+      "configFile": "pages/banking.merchant-services.json"
+    },
+    {
+      "id": "cash-flow-tools",
+      "title": "Cash Flow Tools",
+      "slug": "banking/cash-flow-tools",
+      "configFile": "pages/banking.cash-flow-tools.json"
+    }
+  ]
+}

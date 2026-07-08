@@ -1,0 +1,136 @@
+{
+  "id": "capital-prequal-quiz",
+  "slug": "capital/prequal-quiz",
+  "title": "Prequal Quiz",
+  "parent": "capital",
+  "meta": {
+    "description": "An interactive route-finder that helps visitors find the right funding or partner pathway."
+  },
+  "layout": "detail-page-with-dossier-and-intake",
+  "hero": {
+    "headline": "Prequal Quiz",
+    "subheadline": "An interactive route-finder that helps visitors find the right funding or partner pathway.",
+    "primaryCta": {
+      "label": "Request Access",
+      "href": "#lead-form"
+    },
+    "secondaryCta": {
+      "label": "Back to Capital",
+      "href": "/capital"
+    }
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "Prequal Quiz",
+      "subheadline": "An interactive route-finder that helps visitors find the right funding or partner pathway.",
+      "actions": [
+        {
+          "label": "Request Access",
+          "url": "#lead-form",
+          "style": "primary"
+        },
+        {
+          "label": "Back to Capital",
+          "url": "/capital",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "dossier",
+      "title": "Who This Is For",
+      "items": [
+        "Operators who already have momentum and need leverage.",
+        "Partners who want to refer, sell, or package this pathway.",
+        "Business owners who want a cleaner route than guessing, Googling, and praying."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "How It Works",
+      "steps": [
+        {
+          "label": "Signal",
+          "description": "Tell us the goal, situation, and urgency."
+        },
+        {
+          "label": "Route",
+          "description": "We match the request to the right resource, partner, tool, or workflow."
+        },
+        {
+          "label": "Deploy",
+          "description": "You get a clear next step: apply, book, join, use a tool, or enter training."
+        }
+      ]
+    },
+    {
+      "type": "lead-form",
+      "id": "lead-form",
+      "formId": "capital-prequal-quiz-lead",
+      "storageKey": "jfventures.leads.capital.prequal-quiz",
+      "submitMode": "localStorage-beta",
+      "futureApiEndpoint": "/api/lead",
+      "fields": [
+        {
+          "name": "full_name",
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "name": "business_or_project",
+          "label": "Business / Project",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "goal",
+          "label": "What are you trying to accomplish?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "capital_needed",
+          "label": "Estimated capital needed",
+          "type": "select",
+          "options": [
+            "Under $25K",
+            "$25K-$75K",
+            "$75K-$250K",
+            "$250K-$1M",
+            "$1M+"
+          ],
+          "required": false
+        }
+      ],
+      "hiddenFields": [
+        {
+          "name": "source_page",
+          "value": "/capital/prequal-quiz"
+        },
+        {
+          "name": "division",
+          "value": "capital"
+        },
+        {
+          "name": "pathway",
+          "value": "prequal-quiz"
+        }
+      ]
+    }
+  ]
+}

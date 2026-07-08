@@ -1,0 +1,154 @@
+{
+  "id": "ai",
+  "slug": "ai",
+  "title": "AI",
+  "meta": {
+    "description": "Custom GPTs, AI assistants, agents, prompt packs, workflows, automations, and AI business tools."
+  },
+  "layout": "ai-lab-hub",
+  "division": "ai",
+  "hero": {
+    "headline": "AI",
+    "subheadline": "AI assistants, agents, automations, and prompts for modern operators.",
+    "primaryCta": {
+      "label": "Explore AI Systems",
+      "href": "/ai/custom-gpts"
+    },
+    "secondaryCta": {
+      "label": "Request an AI Workflow",
+      "href": "/ai/workflows"
+    }
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "AI",
+      "subheadline": "AI assistants, agents, automations, and prompts for modern operators.",
+      "actions": [
+        {
+          "label": "Explore AI Systems",
+          "url": "/ai/custom-gpts",
+          "style": "primary"
+        },
+        {
+          "label": "Request an AI Workflow",
+          "url": "/ai/workflows",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "child-page-grid",
+      "title": "AI Pathways",
+      "description": "Custom GPTs, AI assistants, agents, prompt packs, workflows, automations, and AI business tools.",
+      "items": [
+        {
+          "id": "custom-gpts",
+          "title": "Custom GPTs",
+          "description": "Purpose-built GPTs for funding, credit, partner onboarding, acquisition research, and business operations.",
+          "url": "/ai/custom-gpts"
+        },
+        {
+          "id": "ai-assistants",
+          "title": "AI Assistants",
+          "description": "Embedded assistants and workflow helpers that support repeatable business processes.",
+          "url": "/ai/ai-assistants"
+        },
+        {
+          "id": "ai-agents",
+          "title": "AI Agents",
+          "description": "Task-focused agents for lead routing, research, qualification, and operations.",
+          "url": "/ai/ai-agents"
+        },
+        {
+          "id": "prompt-packs",
+          "title": "Prompt Packs",
+          "description": "Reusable prompts and frameworks for capital, credit, marketing, and operations.",
+          "url": "/ai/prompt-packs"
+        },
+        {
+          "id": "workflows",
+          "title": "Workflows",
+          "description": "Multi-step automations that connect forms, CRMs, sheets, APIs, and AI systems.",
+          "url": "/ai/workflows"
+        },
+        {
+          "id": "automations",
+          "title": "Automations",
+          "description": "Operational automations for lead follow-up, intake, routing, enrichment, and reporting.",
+          "url": "/ai/automations"
+        },
+        {
+          "id": "ai-business-tools",
+          "title": "AI Business Tools",
+          "description": "Tools and assistants designed to help operators save time, increase throughput, and close loops.",
+          "url": "/ai/ai-business-tools"
+        }
+      ]
+    },
+    {
+      "type": "featured-dossier",
+      "title": "Operator Brief",
+      "description": "This section should educate, route, and qualify visitors before pushing them into the right ai pathway.",
+      "bullets": [
+        "Clarify the visitor's intent.",
+        "Show the highest-value pathway first.",
+        "Use localStorage during beta to remember quiz/pathway choices.",
+        "Add /api/lead submission when the data layer goes live."
+      ]
+    },
+    {
+      "type": "lead-capture",
+      "id": "ai-lead-form",
+      "title": "Request AI Access",
+      "description": "Tell us what you need from the AI stack and we will route you accordingly.",
+      "formId": "ai-access-request",
+      "mode": "localStorage-beta-api-later"
+    }
+  ],
+  "children": [
+    {
+      "id": "custom-gpts",
+      "title": "Custom GPTs",
+      "slug": "ai/custom-gpts",
+      "configFile": "pages/ai.custom-gpts.json"
+    },
+    {
+      "id": "ai-assistants",
+      "title": "AI Assistants",
+      "slug": "ai/ai-assistants",
+      "configFile": "pages/ai.ai-assistants.json"
+    },
+    {
+      "id": "ai-agents",
+      "title": "AI Agents",
+      "slug": "ai/ai-agents",
+      "configFile": "pages/ai.ai-agents.json"
+    },
+    {
+      "id": "prompt-packs",
+      "title": "Prompt Packs",
+      "slug": "ai/prompt-packs",
+      "configFile": "pages/ai.prompt-packs.json"
+    },
+    {
+      "id": "workflows",
+      "title": "Workflows",
+      "slug": "ai/workflows",
+      "configFile": "pages/ai.workflows.json"
+    },
+    {
+      "id": "automations",
+      "title": "Automations",
+      "slug": "ai/automations",
+      "configFile": "pages/ai.automations.json"
+    },
+    {
+      "id": "ai-business-tools",
+      "title": "AI Business Tools",
+      "slug": "ai/ai-business-tools",
+      "configFile": "pages/ai.ai-business-tools.json"
+    }
+  ]
+}

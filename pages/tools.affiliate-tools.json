@@ -1,0 +1,123 @@
+{
+  "id": "tools-affiliate-tools",
+  "slug": "tools/affiliate-tools",
+  "title": "Affiliate Tools",
+  "parent": "tools",
+  "meta": {
+    "description": "Affiliate platforms, link management, tracking tools, and partner-enablement resources."
+  },
+  "layout": "detail-page-with-dossier-and-intake",
+  "hero": {
+    "headline": "Affiliate Tools",
+    "subheadline": "Affiliate platforms, link management, tracking tools, and partner-enablement resources.",
+    "primaryCta": {
+      "label": "Request Access",
+      "href": "#lead-form"
+    },
+    "secondaryCta": {
+      "label": "Back to Tools",
+      "href": "/tools"
+    }
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "Affiliate Tools",
+      "subheadline": "Affiliate platforms, link management, tracking tools, and partner-enablement resources.",
+      "actions": [
+        {
+          "label": "Request Access",
+          "url": "#lead-form",
+          "style": "primary"
+        },
+        {
+          "label": "Back to Tools",
+          "url": "/tools",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "dossier",
+      "title": "Who This Is For",
+      "items": [
+        "Operators who already have momentum and need leverage.",
+        "Partners who want to refer, sell, or package this pathway.",
+        "Business owners who want a cleaner route than guessing, Googling, and praying."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "How It Works",
+      "steps": [
+        {
+          "label": "Signal",
+          "description": "Tell us the goal, situation, and urgency."
+        },
+        {
+          "label": "Route",
+          "description": "We match the request to the right resource, partner, tool, or workflow."
+        },
+        {
+          "label": "Deploy",
+          "description": "You get a clear next step: apply, book, join, use a tool, or enter training."
+        }
+      ]
+    },
+    {
+      "type": "lead-form",
+      "id": "lead-form",
+      "formId": "tools-affiliate-tools-lead",
+      "storageKey": "jfventures.leads.tools.affiliate-tools",
+      "submitMode": "localStorage-beta",
+      "futureApiEndpoint": "/api/lead",
+      "fields": [
+        {
+          "name": "full_name",
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "name": "business_or_project",
+          "label": "Business / Project",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "goal",
+          "label": "What are you trying to accomplish?",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "hiddenFields": [
+        {
+          "name": "source_page",
+          "value": "/tools/affiliate-tools"
+        },
+        {
+          "name": "division",
+          "value": "tools"
+        },
+        {
+          "name": "pathway",
+          "value": "affiliate-tools"
+        }
+      ]
+    }
+  ]
+}

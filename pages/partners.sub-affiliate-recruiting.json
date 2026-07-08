@@ -1,0 +1,129 @@
+{
+  "id": "partners-sub-affiliate-recruiting",
+  "slug": "partners/sub-affiliate-recruiting",
+  "title": "Sub-Affiliate Recruiting",
+  "parent": "partners",
+  "meta": {
+    "description": "Team-building and downline-oriented partner systems where allowed by partner programs."
+  },
+  "layout": "detail-page-with-dossier-and-intake",
+  "hero": {
+    "headline": "Sub-Affiliate Recruiting",
+    "subheadline": "Team-building and downline-oriented partner systems where allowed by partner programs.",
+    "primaryCta": {
+      "label": "Request Access",
+      "href": "#lead-form"
+    },
+    "secondaryCta": {
+      "label": "Back to Partners",
+      "href": "/partners"
+    }
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "Sub-Affiliate Recruiting",
+      "subheadline": "Team-building and downline-oriented partner systems where allowed by partner programs.",
+      "actions": [
+        {
+          "label": "Request Access",
+          "url": "#lead-form",
+          "style": "primary"
+        },
+        {
+          "label": "Back to Partners",
+          "url": "/partners",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "dossier",
+      "title": "Who This Is For",
+      "items": [
+        "Operators who already have momentum and need leverage.",
+        "Partners who want to refer, sell, or package this pathway.",
+        "Business owners who want a cleaner route than guessing, Googling, and praying."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "How It Works",
+      "steps": [
+        {
+          "label": "Signal",
+          "description": "Tell us the goal, situation, and urgency."
+        },
+        {
+          "label": "Route",
+          "description": "We match the request to the right resource, partner, tool, or workflow."
+        },
+        {
+          "label": "Deploy",
+          "description": "You get a clear next step: apply, book, join, use a tool, or enter training."
+        }
+      ]
+    },
+    {
+      "type": "lead-form",
+      "id": "lead-form",
+      "formId": "partners-sub-affiliate-recruiting-lead",
+      "storageKey": "jfventures.leads.partners.sub-affiliate-recruiting",
+      "submitMode": "localStorage-beta",
+      "futureApiEndpoint": "/api/lead",
+      "fields": [
+        {
+          "name": "full_name",
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "name": "business_or_project",
+          "label": "Business / Project",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "goal",
+          "label": "What are you trying to accomplish?",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "audience_or_network",
+          "label": "Do you have an audience, book of business, or network?",
+          "type": "textarea",
+          "required": false
+        }
+      ],
+      "hiddenFields": [
+        {
+          "name": "source_page",
+          "value": "/partners/sub-affiliate-recruiting"
+        },
+        {
+          "name": "division",
+          "value": "partners"
+        },
+        {
+          "name": "pathway",
+          "value": "sub-affiliate-recruiting"
+        }
+      ]
+    }
+  ]
+}

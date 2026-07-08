@@ -1,0 +1,131 @@
+{
+  "id": "home",
+  "slug": "",
+  "title": "JF Ventures",
+  "meta": {
+    "description": "A private-office-style venture ecosystem for capital, credit, AI systems, partner distribution, tools, banking, media, and community."
+  },
+  "layout": "home-command-center",
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "Build. Buy. Fund. Automate.",
+      "subheadline": "JF Ventures is a private-office-style ecosystem for operators, partners, and business owners using capital strategy, fintech systems, AI workflows, and affiliate distribution to grow cash-flowing companies.",
+      "actions": [
+        {
+          "label": "Join the Partner Network",
+          "url": "/partners/become-funding-partner",
+          "style": "primary"
+        },
+        {
+          "label": "Explore Capital Systems",
+          "url": "/capital",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "division-grid",
+      "title": "The Operating Stack",
+      "description": "Move through the ecosystem by outcome: capital, credit, partners, AI, tools, banking, education, and community.",
+      "items": [
+        {
+          "id": "capital",
+          "title": "Capital",
+          "description": "Funding pathways, lender access, acquisition capital, and prequalification flows.",
+          "url": "/capital"
+        },
+        {
+          "id": "credit",
+          "title": "Credit",
+          "description": "Business and personal credit systems that support stronger approvals.",
+          "url": "/credit"
+        },
+        {
+          "id": "partners",
+          "title": "Partners",
+          "description": "Referral, broker, affiliate, and sub-affiliate opportunities.",
+          "url": "/partners",
+          "badge": "Primary Growth Engine"
+        },
+        {
+          "id": "ai",
+          "title": "AI",
+          "description": "Custom GPTs, agents, prompts, automations, and workflow systems.",
+          "url": "/ai"
+        },
+        {
+          "id": "tools",
+          "title": "Tools",
+          "description": "Software, calculators, templates, and automation assets.",
+          "url": "/tools"
+        },
+        {
+          "id": "banking",
+          "title": "Banking",
+          "description": "Business banking, fintech accounts, spend, merchant services, and cash-flow tools.",
+          "url": "/banking"
+        },
+        {
+          "id": "learn-media",
+          "title": "Learn / Media",
+          "description": "Field notes, videos, guides, playbooks, case studies, and operator intelligence.",
+          "url": "/learn-media"
+        },
+        {
+          "id": "community",
+          "title": "Community",
+          "description": "Partner network, Moonshine Moneymakers, Cashflow Nights, and private hubs.",
+          "url": "/community"
+        }
+      ]
+    },
+    {
+      "type": "pathway-selector",
+      "title": "Choose Your Mission",
+      "description": "Route visitors based on intent. Store answers in localStorage during beta; send them to /api/lead later.",
+      "storageKey": "jfventures.pathway",
+      "pathways": [
+        {
+          "id": "sell-the-stack",
+          "label": "I want to become a partner",
+          "recommendedUrl": "/partners/become-funding-partner"
+        },
+        {
+          "id": "get-capital",
+          "label": "I need capital",
+          "recommendedUrl": "/capital/prequal-quiz"
+        },
+        {
+          "id": "buy-a-business",
+          "label": "I am exploring acquisition financing",
+          "recommendedUrl": "/capital/acquisition-capital"
+        },
+        {
+          "id": "build-credit",
+          "label": "I need credit capacity",
+          "recommendedUrl": "/credit"
+        },
+        {
+          "id": "install-ai",
+          "label": "I want AI systems or agents",
+          "recommendedUrl": "/ai"
+        },
+        {
+          "id": "stack-tools",
+          "label": "I want software/tools/templates",
+          "recommendedUrl": "/tools"
+        }
+      ]
+    },
+    {
+      "type": "lead-capture",
+      "id": "home-lead-form",
+      "title": "Request Access",
+      "description": "Tell us what you are building, selling, buying, or funding. We will route you to the right capital, partner, AI, or tool pathway.",
+      "formId": "general-access-request",
+      "mode": "localStorage-beta-api-later"
+    }
+  ]
+}

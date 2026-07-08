@@ -1,0 +1,154 @@
+{
+  "id": "capital",
+  "slug": "capital",
+  "title": "Capital",
+  "meta": {
+    "description": "Powered by Moonshine Capital. Includes business funding, real estate funding, personal funding, credit stacking, lender directory, acquisition capital, and prequalification flows."
+  },
+  "layout": "capital-command-center",
+  "division": "capital",
+  "hero": {
+    "headline": "Capital",
+    "subheadline": "Capital pathways for businesses, buyers, builders, and operators.",
+    "primaryCta": {
+      "label": "Start the Prequal Quiz",
+      "href": "/capital/prequal-quiz"
+    },
+    "secondaryCta": {
+      "label": "Join as Capital Partner",
+      "href": "/partners/become-funding-partner"
+    }
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "Capital",
+      "subheadline": "Capital pathways for businesses, buyers, builders, and operators.",
+      "actions": [
+        {
+          "label": "Start the Prequal Quiz",
+          "url": "/capital/prequal-quiz",
+          "style": "primary"
+        },
+        {
+          "label": "Join as Capital Partner",
+          "url": "/partners/become-funding-partner",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "child-page-grid",
+      "title": "Capital Pathways",
+      "description": "Powered by Moonshine Capital. Includes business funding, real estate funding, personal funding, credit stacking, lender directory, acquisition capital, and prequalification flows.",
+      "items": [
+        {
+          "id": "business-funding",
+          "title": "Business Funding",
+          "description": "Working capital, term loans, lines of credit, revenue-based funding, and alternative capital for operating companies.",
+          "url": "/capital/business-funding"
+        },
+        {
+          "id": "real-estate-funding",
+          "title": "Real Estate Funding",
+          "description": "Capital pathways for investors, builders, landlords, flippers, and real estate operators.",
+          "url": "/capital/real-estate-funding"
+        },
+        {
+          "id": "personal-funding",
+          "title": "Personal Funding",
+          "description": "Personal loans, credit-based funding, and consumer capital pathways where appropriate.",
+          "url": "/capital/personal-funding"
+        },
+        {
+          "id": "credit-stacking",
+          "title": "Credit Stacking",
+          "description": "Structured access to cards, lines, and credit-based funding pathways.",
+          "url": "/capital/credit-stacking"
+        },
+        {
+          "id": "lender-directory",
+          "title": "Lender Directory",
+          "description": "A curated directory of funding partners, lender programs, and referral options.",
+          "url": "/capital/lender-directory"
+        },
+        {
+          "id": "prequal-quiz",
+          "title": "Prequal Quiz",
+          "description": "An interactive route-finder that helps visitors find the right funding or partner pathway.",
+          "url": "/capital/prequal-quiz"
+        },
+        {
+          "id": "acquisition-capital",
+          "title": "Acquisition Capital",
+          "description": "Private application-based capital strategy for buyers pursuing SME acquisitions.",
+          "url": "/capital/acquisition-capital"
+        }
+      ]
+    },
+    {
+      "type": "featured-dossier",
+      "title": "Operator Brief",
+      "description": "This section should educate, route, and qualify visitors before pushing them into the right capital pathway.",
+      "bullets": [
+        "Clarify the visitor's intent.",
+        "Show the highest-value pathway first.",
+        "Use localStorage during beta to remember quiz/pathway choices.",
+        "Add /api/lead submission when the data layer goes live."
+      ]
+    },
+    {
+      "type": "lead-capture",
+      "id": "capital-lead-form",
+      "title": "Request Capital Access",
+      "description": "Tell us what you need from the Capital stack and we will route you accordingly.",
+      "formId": "capital-access-request",
+      "mode": "localStorage-beta-api-later"
+    }
+  ],
+  "children": [
+    {
+      "id": "business-funding",
+      "title": "Business Funding",
+      "slug": "capital/business-funding",
+      "configFile": "pages/capital.business-funding.json"
+    },
+    {
+      "id": "real-estate-funding",
+      "title": "Real Estate Funding",
+      "slug": "capital/real-estate-funding",
+      "configFile": "pages/capital.real-estate-funding.json"
+    },
+    {
+      "id": "personal-funding",
+      "title": "Personal Funding",
+      "slug": "capital/personal-funding",
+      "configFile": "pages/capital.personal-funding.json"
+    },
+    {
+      "id": "credit-stacking",
+      "title": "Credit Stacking",
+      "slug": "capital/credit-stacking",
+      "configFile": "pages/capital.credit-stacking.json"
+    },
+    {
+      "id": "lender-directory",
+      "title": "Lender Directory",
+      "slug": "capital/lender-directory",
+      "configFile": "pages/capital.lender-directory.json"
+    },
+    {
+      "id": "prequal-quiz",
+      "title": "Prequal Quiz",
+      "slug": "capital/prequal-quiz",
+      "configFile": "pages/capital.prequal-quiz.json"
+    },
+    {
+      "id": "acquisition-capital",
+      "title": "Acquisition Capital",
+      "slug": "capital/acquisition-capital",
+      "configFile": "pages/capital.acquisition-capital.json"
+    }
+  ]
+}

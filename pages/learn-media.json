@@ -1,0 +1,142 @@
+{
+  "id": "learn-media",
+  "slug": "learn-media",
+  "title": "Learn / Media",
+  "meta": {
+    "description": "YouTube, podcast, Substack, guides, playbooks, and case studies."
+  },
+  "layout": "media-library",
+  "division": "learn-media",
+  "hero": {
+    "headline": "Learn / Media",
+    "subheadline": "Field notes for operators who prefer leverage over permission.",
+    "primaryCta": {
+      "label": "Read Field Notes",
+      "href": "/learn-media/substack"
+    },
+    "secondaryCta": {
+      "label": "Watch on YouTube",
+      "href": "/learn-media/youtube"
+    }
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "Learn / Media",
+      "subheadline": "Field notes for operators who prefer leverage over permission.",
+      "actions": [
+        {
+          "label": "Read Field Notes",
+          "url": "/learn-media/substack",
+          "style": "primary"
+        },
+        {
+          "label": "Watch on YouTube",
+          "url": "/learn-media/youtube",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "child-page-grid",
+      "title": "Learn / Media Pathways",
+      "description": "YouTube, podcast, Substack, guides, playbooks, and case studies.",
+      "items": [
+        {
+          "id": "youtube",
+          "title": "YouTube",
+          "description": "Video breakdowns, walkthroughs, interviews, and operator explainers.",
+          "url": "/learn-media/youtube"
+        },
+        {
+          "id": "podcast",
+          "title": "Podcast",
+          "description": "Audio conversations and field briefings on capital, acquisitions, AI, and private-market operations.",
+          "url": "/learn-media/podcast"
+        },
+        {
+          "id": "substack",
+          "title": "Substack",
+          "description": "Essays, memos, market notes, and operator intelligence.",
+          "url": "/learn-media/substack"
+        },
+        {
+          "id": "guides",
+          "title": "Guides",
+          "description": "Step-by-step guides for funding, credit, partner systems, AI workflows, and tools.",
+          "url": "/learn-media/guides"
+        },
+        {
+          "id": "playbooks",
+          "title": "Playbooks",
+          "description": "Tactical playbooks for partner recruiting, funding workflows, acquisition prep, and automation.",
+          "url": "/learn-media/playbooks"
+        },
+        {
+          "id": "case-studies",
+          "title": "Case Studies",
+          "description": "Real-world breakdowns of capital stacks, partner systems, and operator builds.",
+          "url": "/learn-media/case-studies"
+        }
+      ]
+    },
+    {
+      "type": "featured-dossier",
+      "title": "Operator Brief",
+      "description": "This section should educate, route, and qualify visitors before pushing them into the right learn / media pathway.",
+      "bullets": [
+        "Clarify the visitor's intent.",
+        "Show the highest-value pathway first.",
+        "Use localStorage during beta to remember quiz/pathway choices.",
+        "Add /api/lead submission when the data layer goes live."
+      ]
+    },
+    {
+      "type": "lead-capture",
+      "id": "learn-media-lead-form",
+      "title": "Request Learn / Media Access",
+      "description": "Tell us what you need from the Learn / Media stack and we will route you accordingly.",
+      "formId": "learn-media-access-request",
+      "mode": "localStorage-beta-api-later"
+    }
+  ],
+  "children": [
+    {
+      "id": "youtube",
+      "title": "YouTube",
+      "slug": "learn-media/youtube",
+      "configFile": "pages/learn-media.youtube.json"
+    },
+    {
+      "id": "podcast",
+      "title": "Podcast",
+      "slug": "learn-media/podcast",
+      "configFile": "pages/learn-media.podcast.json"
+    },
+    {
+      "id": "substack",
+      "title": "Substack",
+      "slug": "learn-media/substack",
+      "configFile": "pages/learn-media.substack.json"
+    },
+    {
+      "id": "guides",
+      "title": "Guides",
+      "slug": "learn-media/guides",
+      "configFile": "pages/learn-media.guides.json"
+    },
+    {
+      "id": "playbooks",
+      "title": "Playbooks",
+      "slug": "learn-media/playbooks",
+      "configFile": "pages/learn-media.playbooks.json"
+    },
+    {
+      "id": "case-studies",
+      "title": "Case Studies",
+      "slug": "learn-media/case-studies",
+      "configFile": "pages/learn-media.case-studies.json"
+    }
+  ]
+}

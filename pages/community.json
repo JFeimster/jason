@@ -1,0 +1,118 @@
+{
+  "id": "community",
+  "slug": "community",
+  "title": "Community",
+  "meta": {
+    "description": "Partner Network, Moonshine Moneymakers, Cashflow Nights, and community hubs across Discord, Circle, Skool, or Notion."
+  },
+  "layout": "community-hub",
+  "division": "community",
+  "hero": {
+    "headline": "Community",
+    "subheadline": "A network for operators, partners, builders, and capital-minded misfits.",
+    "primaryCta": {
+      "label": "Join the Network",
+      "href": "/community/partner-network"
+    },
+    "secondaryCta": {
+      "label": "Explore Moonshine Moneymakers",
+      "href": "/community/moonshine-moneymakers"
+    }
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "Community",
+      "subheadline": "A network for operators, partners, builders, and capital-minded misfits.",
+      "actions": [
+        {
+          "label": "Join the Network",
+          "url": "/community/partner-network",
+          "style": "primary"
+        },
+        {
+          "label": "Explore Moonshine Moneymakers",
+          "url": "/community/moonshine-moneymakers",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "child-page-grid",
+      "title": "Community Pathways",
+      "description": "Partner Network, Moonshine Moneymakers, Cashflow Nights, and community hubs across Discord, Circle, Skool, or Notion.",
+      "items": [
+        {
+          "id": "partner-network",
+          "title": "Partner Network",
+          "description": "The main partner and referral ecosystem for selling the JF Ventures stack.",
+          "url": "/community/partner-network"
+        },
+        {
+          "id": "moonshine-moneymakers",
+          "title": "Moonshine Moneymakers",
+          "description": "Community for funding partners, capital-minded operators, and deal referral builders.",
+          "url": "/community/moonshine-moneymakers"
+        },
+        {
+          "id": "cashflow-nights",
+          "title": "Cashflow Nights",
+          "description": "Offline game nights, networking, and financial education experiences.",
+          "url": "/community/cashflow-nights"
+        },
+        {
+          "id": "discord-circle-skool-notion",
+          "title": "Discord / Circle / Skool / Notion Hub",
+          "description": "Possible community homes and resource hubs for partners and members.",
+          "url": "/community/discord-circle-skool-notion"
+        }
+      ]
+    },
+    {
+      "type": "featured-dossier",
+      "title": "Operator Brief",
+      "description": "This section should educate, route, and qualify visitors before pushing them into the right community pathway.",
+      "bullets": [
+        "Clarify the visitor's intent.",
+        "Show the highest-value pathway first.",
+        "Use localStorage during beta to remember quiz/pathway choices.",
+        "Add /api/lead submission when the data layer goes live."
+      ]
+    },
+    {
+      "type": "lead-capture",
+      "id": "community-lead-form",
+      "title": "Request Community Access",
+      "description": "Tell us what you need from the Community stack and we will route you accordingly.",
+      "formId": "community-access-request",
+      "mode": "localStorage-beta-api-later"
+    }
+  ],
+  "children": [
+    {
+      "id": "partner-network",
+      "title": "Partner Network",
+      "slug": "community/partner-network",
+      "configFile": "pages/community.partner-network.json"
+    },
+    {
+      "id": "moonshine-moneymakers",
+      "title": "Moonshine Moneymakers",
+      "slug": "community/moonshine-moneymakers",
+      "configFile": "pages/community.moonshine-moneymakers.json"
+    },
+    {
+      "id": "cashflow-nights",
+      "title": "Cashflow Nights",
+      "slug": "community/cashflow-nights",
+      "configFile": "pages/community.cashflow-nights.json"
+    },
+    {
+      "id": "discord-circle-skool-notion",
+      "title": "Discord / Circle / Skool / Notion Hub",
+      "slug": "community/discord-circle-skool-notion",
+      "configFile": "pages/community.discord-circle-skool-notion.json"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "banking-merchant-services",
+  "slug": "banking/merchant-services",
+  "title": "Merchant Services",
+  "parent": "banking",
+  "meta": {
+    "description": "Payment processing, merchant accounts, and commerce infrastructure."
+  },
+  "layout": "detail-page-with-dossier-and-intake",
+  "hero": {
+    "headline": "Merchant Services",
+    "subheadline": "Payment processing, merchant accounts, and commerce infrastructure.",
+    "primaryCta": {
+      "label": "Request Access",
+      "href": "#lead-form"
+    },
+    "secondaryCta": {
+      "label": "Back to Banking",
+      "href": "/banking"
+    }
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "Merchant Services",
+      "subheadline": "Payment processing, merchant accounts, and commerce infrastructure.",
+      "actions": [
+        {
+          "label": "Request Access",
+          "url": "#lead-form",
+          "style": "primary"
+        },
+        {
+          "label": "Back to Banking",
+          "url": "/banking",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "dossier",
+      "title": "Who This Is For",
+      "items": [
+        "Operators who already have momentum and need leverage.",
+        "Partners who want to refer, sell, or package this pathway.",
+        "Business owners who want a cleaner route than guessing, Googling, and praying."
+      ]
+    },
+    {
+      "type": "process",
+      "title": "How It Works",
+      "steps": [
+        {
+          "label": "Signal",
+          "description": "Tell us the goal, situation, and urgency."
+        },
+        {
+          "label": "Route",
+          "description": "We match the request to the right resource, partner, tool, or workflow."
+        },
+        {
+          "label": "Deploy",
+          "description": "You get a clear next step: apply, book, join, use a tool, or enter training."
+        }
+      ]
+    },
+    {
+      "type": "lead-form",
+      "id": "lead-form",
+      "formId": "banking-merchant-services-lead",
+      "storageKey": "jfventures.leads.banking.merchant-services",
+      "submitMode": "localStorage-beta",
+      "futureApiEndpoint": "/api/lead",
+      "fields": [
+        {
+          "name": "full_name",
+          "label": "Full Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "name": "business_or_project",
+          "label": "Business / Project",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "goal",
+          "label": "What are you trying to accomplish?",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "hiddenFields": [
+        {
+          "name": "source_page",
+          "value": "/banking/merchant-services"
+        },
+        {
+          "name": "division",
+          "value": "banking"
+        },
+        {
+          "name": "pathway",
+          "value": "merchant-services"
+        }
+      ]
+    }
+  ]
+}

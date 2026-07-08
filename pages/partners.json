@@ -1,0 +1,142 @@
+{
+  "id": "partners",
+  "slug": "partners",
+  "title": "Partners",
+  "meta": {
+    "description": "Funding partner, DAC agent, broker, affiliate, sub-affiliate, and partner training pathways."
+  },
+  "layout": "partner-recruitment-hub",
+  "division": "partners",
+  "hero": {
+    "headline": "Partners",
+    "subheadline": "Sell the stack. Serve operators. Earn through the ecosystem.",
+    "primaryCta": {
+      "label": "Apply to Become a Partner",
+      "href": "/partners/become-funding-partner"
+    },
+    "secondaryCta": {
+      "label": "See Partner Programs",
+      "href": "/partners/affiliate-directory"
+    }
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "Partners",
+      "subheadline": "Sell the stack. Serve operators. Earn through the ecosystem.",
+      "actions": [
+        {
+          "label": "Apply to Become a Partner",
+          "url": "/partners/become-funding-partner",
+          "style": "primary"
+        },
+        {
+          "label": "See Partner Programs",
+          "url": "/partners/affiliate-directory",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "child-page-grid",
+      "title": "Partners Pathways",
+      "description": "Funding partner, DAC agent, broker, affiliate, sub-affiliate, and partner training pathways.",
+      "items": [
+        {
+          "id": "become-funding-partner",
+          "title": "Become a Funding Partner",
+          "description": "Apply to sell and refer capital, credit, fintech, AI, and tool pathways through the partner network.",
+          "url": "/partners/become-funding-partner"
+        },
+        {
+          "id": "join-dac",
+          "title": "Join DAC",
+          "description": "Register as a David Allen Capital agent and learn the funding-agency model.",
+          "url": "/partners/join-dac"
+        },
+        {
+          "id": "broker-opportunities",
+          "title": "Broker Opportunities",
+          "description": "Explore broker and referral programs for business finance, credit, banking, and fintech products.",
+          "url": "/partners/broker-opportunities"
+        },
+        {
+          "id": "affiliate-directory",
+          "title": "Affiliate Directory",
+          "description": "Directory of affiliate and referral programs that can fit the operator stack.",
+          "url": "/partners/affiliate-directory"
+        },
+        {
+          "id": "sub-affiliate-recruiting",
+          "title": "Sub-Affiliate Recruiting",
+          "description": "Team-building and downline-oriented partner systems where allowed by partner programs.",
+          "url": "/partners/sub-affiliate-recruiting"
+        },
+        {
+          "id": "partner-training",
+          "title": "Partner Training",
+          "description": "Scripts, funnels, onboarding, lead routing, and partner enablement assets.",
+          "url": "/partners/partner-training"
+        }
+      ]
+    },
+    {
+      "type": "featured-dossier",
+      "title": "Operator Brief",
+      "description": "This section should educate, route, and qualify visitors before pushing them into the right partners pathway.",
+      "bullets": [
+        "Clarify the visitor's intent.",
+        "Show the highest-value pathway first.",
+        "Use localStorage during beta to remember quiz/pathway choices.",
+        "Add /api/lead submission when the data layer goes live."
+      ]
+    },
+    {
+      "type": "lead-capture",
+      "id": "partners-lead-form",
+      "title": "Request Partners Access",
+      "description": "Tell us what you need from the Partners stack and we will route you accordingly.",
+      "formId": "partners-access-request",
+      "mode": "localStorage-beta-api-later"
+    }
+  ],
+  "children": [
+    {
+      "id": "become-funding-partner",
+      "title": "Become a Funding Partner",
+      "slug": "partners/become-funding-partner",
+      "configFile": "pages/partners.become-funding-partner.json"
+    },
+    {
+      "id": "join-dac",
+      "title": "Join DAC",
+      "slug": "partners/join-dac",
+      "configFile": "pages/partners.join-dac.json"
+    },
+    {
+      "id": "broker-opportunities",
+      "title": "Broker Opportunities",
+      "slug": "partners/broker-opportunities",
+      "configFile": "pages/partners.broker-opportunities.json"
+    },
+    {
+      "id": "affiliate-directory",
+      "title": "Affiliate Directory",
+      "slug": "partners/affiliate-directory",
+      "configFile": "pages/partners.affiliate-directory.json"
+    },
+    {
+      "id": "sub-affiliate-recruiting",
+      "title": "Sub-Affiliate Recruiting",
+      "slug": "partners/sub-affiliate-recruiting",
+      "configFile": "pages/partners.sub-affiliate-recruiting.json"
+    },
+    {
+      "id": "partner-training",
+      "title": "Partner Training",
+      "slug": "partners/partner-training",
+      "configFile": "pages/partners.partner-training.json"
+    }
+  ]
+}

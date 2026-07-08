@@ -1,0 +1,154 @@
+{
+  "id": "tools",
+  "slug": "tools",
+  "title": "Tools",
+  "meta": {
+    "description": "Software directory, CRM tools, affiliate tools, funding calculators, Notion templates, automation templates, and future Chrome extensions."
+  },
+  "layout": "tool-vault",
+  "division": "tools",
+  "hero": {
+    "headline": "Tools",
+    "subheadline": "The operator tool vault: software, calculators, templates, and automation assets.",
+    "primaryCta": {
+      "label": "Enter the Tool Vault",
+      "href": "/tools/software-directory"
+    },
+    "secondaryCta": {
+      "label": "Submit a Tool",
+      "href": "/tools/software-directory#submit"
+    }
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "luxury-neobrutalist-terminal",
+      "headline": "Tools",
+      "subheadline": "The operator tool vault: software, calculators, templates, and automation assets.",
+      "actions": [
+        {
+          "label": "Enter the Tool Vault",
+          "url": "/tools/software-directory",
+          "style": "primary"
+        },
+        {
+          "label": "Submit a Tool",
+          "url": "/tools/software-directory#submit",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "child-page-grid",
+      "title": "Tools Pathways",
+      "description": "Software directory, CRM tools, affiliate tools, funding calculators, Notion templates, automation templates, and future Chrome extensions.",
+      "items": [
+        {
+          "id": "software-directory",
+          "title": "Software Directory",
+          "description": "Curated software for operators, partners, brokers, creators, and business owners.",
+          "url": "/tools/software-directory"
+        },
+        {
+          "id": "crm-tools",
+          "title": "CRM Tools",
+          "description": "CRM and pipeline tools for lead management, partner tracking, and deal follow-up.",
+          "url": "/tools/crm-tools"
+        },
+        {
+          "id": "affiliate-tools",
+          "title": "Affiliate Tools",
+          "description": "Affiliate platforms, link management, tracking tools, and partner-enablement resources.",
+          "url": "/tools/affiliate-tools"
+        },
+        {
+          "id": "funding-calculators",
+          "title": "Funding Calculators",
+          "description": "Calculators for funding scenarios, repayment estimates, acquisition capital, and partner economics.",
+          "url": "/tools/funding-calculators"
+        },
+        {
+          "id": "notion-templates",
+          "title": "Notion Templates",
+          "description": "Operating templates for deal flow, partner tracking, funding intake, content, and SOPs.",
+          "url": "/tools/notion-templates"
+        },
+        {
+          "id": "automation-templates",
+          "title": "Automation Templates",
+          "description": "Reusable automations for Make, Zapier, n8n, Airtable, Sheets, and CRM workflows.",
+          "url": "/tools/automation-templates"
+        },
+        {
+          "id": "chrome-extensions",
+          "title": "Chrome Extensions",
+          "description": "Future browser tools for research, deal capture, affiliate workflows, and productivity.",
+          "url": "/tools/chrome-extensions"
+        }
+      ]
+    },
+    {
+      "type": "featured-dossier",
+      "title": "Operator Brief",
+      "description": "This section should educate, route, and qualify visitors before pushing them into the right tools pathway.",
+      "bullets": [
+        "Clarify the visitor's intent.",
+        "Show the highest-value pathway first.",
+        "Use localStorage during beta to remember quiz/pathway choices.",
+        "Add /api/lead submission when the data layer goes live."
+      ]
+    },
+    {
+      "type": "lead-capture",
+      "id": "tools-lead-form",
+      "title": "Request Tools Access",
+      "description": "Tell us what you need from the Tools stack and we will route you accordingly.",
+      "formId": "tools-access-request",
+      "mode": "localStorage-beta-api-later"
+    }
+  ],
+  "children": [
+    {
+      "id": "software-directory",
+      "title": "Software Directory",
+      "slug": "tools/software-directory",
+      "configFile": "pages/tools.software-directory.json"
+    },
+    {
+      "id": "crm-tools",
+      "title": "CRM Tools",
+      "slug": "tools/crm-tools",
+      "configFile": "pages/tools.crm-tools.json"
+    },
+    {
+      "id": "affiliate-tools",
+      "title": "Affiliate Tools",
+      "slug": "tools/affiliate-tools",
+      "configFile": "pages/tools.affiliate-tools.json"
+    },
+    {
+      "id": "funding-calculators",
+      "title": "Funding Calculators",
+      "slug": "tools/funding-calculators",
+      "configFile": "pages/tools.funding-calculators.json"
+    },
+    {
+      "id": "notion-templates",
+      "title": "Notion Templates",
+      "slug": "tools/notion-templates",
+      "configFile": "pages/tools.notion-templates.json"
+    },
+    {
+      "id": "automation-templates",
+      "title": "Automation Templates",
+      "slug": "tools/automation-templates",
+      "configFile": "pages/tools.automation-templates.json"
+    },
+    {
+      "id": "chrome-extensions",
+      "title": "Chrome Extensions",
+      "slug": "tools/chrome-extensions",
+      "configFile": "pages/tools.chrome-extensions.json"
+    }
+  ]
+}
