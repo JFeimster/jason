@@ -1,0 +1,86 @@
+[
+  {
+    "asset_name": "JF Ventures",
+    "source_type": "config_package",
+    "workflow_cluster": "umbrella-brand",
+    "reuse_mode": "route_architecture",
+    "priority_note": "Parent venture-builder brand and ecosystem navigation layer"
+  },
+  {
+    "asset_name": "Moonshine Capital",
+    "source_type": "brand_config",
+    "workflow_cluster": "capital-division",
+    "reuse_mode": "division_owner",
+    "priority_note": "Capital division for funding, credit, lender directory, and prequal workflows"
+  },
+  {
+    "asset_name": "Privateer Partner Network",
+    "source_type": "brand_config",
+    "workflow_cluster": "partner-distribution",
+    "reuse_mode": "division_owner",
+    "priority_note": "Partner and affiliate distribution division"
+  },
+  {
+    "asset_name": "Operator AI Lab",
+    "source_type": "brand_config",
+    "workflow_cluster": "ai-systems",
+    "reuse_mode": "division_owner",
+    "priority_note": "AI agents, GPTs, workflows, prompt packs, and automation kits"
+  },
+  {
+    "asset_name": "Full-Time Hustler",
+    "source_type": "brand_config",
+    "workflow_cluster": "media-community",
+    "reuse_mode": "division_owner",
+    "priority_note": "Media, education, guides, playbooks, case studies, and community experiences"
+  },
+  {
+    "asset_name": "Business Funding",
+    "source_type": "page_config",
+    "workflow_cluster": "funding-readiness-routing",
+    "reuse_mode": "front_door_page",
+    "priority_note": "Capital/business funding page with prequal CTA"
+  },
+  {
+    "asset_name": "Credit Builder Tools",
+    "source_type": "page_config",
+    "workflow_cluster": "business-credit-readiness",
+    "reuse_mode": "vertical_page",
+    "priority_note": "Credit capacity tools, vendors, and education"
+  },
+  {
+    "asset_name": "AI Agents",
+    "source_type": "page_config",
+    "workflow_cluster": "ai-agent-workflows",
+    "reuse_mode": "offer_page",
+    "priority_note": "Agent workflow request page for automation bottlenecks"
+  },
+  {
+    "asset_name": "Become a Funding Partner",
+    "source_type": "page_config",
+    "workflow_cluster": "partner-affiliate-enablement",
+    "reuse_mode": "partner_front_door",
+    "priority_note": "Partner recruitment page with partner directory and next steps"
+  },
+  {
+    "asset_name": "Funding Partner Directory",
+    "source_type": "directory_config",
+    "workflow_cluster": "partner-affiliate-enablement",
+    "reuse_mode": "affiliate_directory",
+    "priority_note": "Active partner/funding/credit affiliate directory"
+  },
+  {
+    "asset_name": "Software Tool Directory",
+    "source_type": "directory_config",
+    "workflow_cluster": "tool-stack",
+    "reuse_mode": "operator_tool_directory",
+    "priority_note": "Software/AI/deployment/ops tool directory"
+  },
+  {
+    "asset_name": "Jason personal sites",
+    "source_type": "public_urls",
+    "workflow_cluster": "venture-builder-brand",
+    "reuse_mode": "inspect_reference",
+    "priority_note": "Reference surfaces for personal brand and speaking/media positioning"
+  }
+]
